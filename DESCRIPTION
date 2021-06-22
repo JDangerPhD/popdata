@@ -1,15 +1,11 @@
 Package: popdata
-Title: Population Variation
-Version: 0.0.0.9000
-Authors@R: 
-    person(given = "J",
-           family = "Danger",
-           role = c("aut"),
-           email = "dangerphd@icloud.com",
-           Description: This function takes input from the user on allele names and population size It then prints out the genetic variation data
-License: `use_mit_license()`
-
-Encoding: UTF-8
+Title: Population Variation 
+Version: 0.1
+Authors@R: person("J", "D", email = "dangerphd@icloud.com",
+                  role = c("aut", "cre"))
+Description: This tidbit takes user input on allele names and population size and yields allelic variation data.
+Depends: R (>= 3.1.0)
+License: What license is it under? GPL =>2
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
